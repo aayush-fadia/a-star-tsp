@@ -8,4 +8,8 @@ bazel run //solver:solver <path to graph file>
 Sample Graphs are in the `sample_graphs/`
 
 ## Screenshots
-TODO
+![Small Graph](screenshots/A_star_5_nodes.png)
+![25 Nodes](screenshots/A_star_25_nodes_dense.png)
+![40 Unsolvable](screenshots/A_star_40_nodes_unsolvable.png)
+![50 Nodes](screenshots/A_star_50_nodes_sparse.png)
+![1000 Nodes](screenshots/A_star_1000_nodes_sparse.png)
