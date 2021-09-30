@@ -1,10 +1,6 @@
 #include "graph.h"
 
-int index(int src, int dest, int size) {
-    return src * size + dest;
-}
-
-int prims_mst(const int *adjacency_list, int size, const bool *visited, int current_node) {
+int prims_mst(const int *adjacency_list, const int &size, const bool *visited) {
     bool *included = (bool *) malloc(size * sizeof(bool));
     memcpy(included, visited, size * sizeof(bool));
     int num_included = 0;

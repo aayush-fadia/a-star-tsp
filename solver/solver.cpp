@@ -20,6 +20,7 @@ int main(int argc, char **argv) {
         graph = generateGraph(size, conn);
     } else {
         cout << "Missing Filename or num_nodes and avg_connectivity" << endl;
+        return 0;
     }
     tqdm bar;
     bool *allUnvisited = (bool *) (malloc(size * sizeof(bool)));
