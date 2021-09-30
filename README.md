@@ -6,7 +6,8 @@ bazel run //solver:solver <path to graph file>
 ```
 
 Sample Graphs are in the `sample_graphs/`
-
+## Credits
+Progress bar adapted from [aminnj/cpptqdm](https://github.com/aminnj/cpptqdm).
 ## Screenshots
 ![Small Graph](screenshots/A_star_5_nodes.png)
 ![25 Nodes](screenshots/A_star_25_nodes_dense.png)
